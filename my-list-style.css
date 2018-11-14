@@ -5,10 +5,9 @@ body {
   margin: 0px 0px 0px 0px;
 }
 
-hr{
-  width = 75%;
-  color: black;
-
+@keyframes fadein{
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 section.title_and_pic{
@@ -42,8 +41,8 @@ color: rgb(109, 162, 105);
 section.info{
 padding-top: 60px;
 padding-right: 50px;
-font-family:
-
+font-family: "Oswald", sans-serif;
+animation: fadein 5s;
 }
 
 #titleblock{
@@ -58,13 +57,14 @@ font-family:
   width: 100%;
   height: 400px;
   font-family: "Oswald", sans-serif;
-  font-size: 38px;
+  font-size: 50px;
   font-weight: 300;
 }
 
 #titletext{
   color: white;
   max-width: 75%;
+  animation: fadein 5s;
 }
 
 #titlepic{
